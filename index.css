@@ -1,0 +1,399 @@
+body{
+    background: url(./sahara.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+.camel{
+    position: absolute;
+    width: 74px;
+    left: 3%;
+    top: 8%;
+    
+    
+}
+
+.sahalorem{
+    position: absolute;
+    left: 10%;
+    top: 32%;
+    letter-spacing: 2px;
+    font-size: 100px;
+    color: white;
+}
+.lorem{
+    width: 36%;
+    position: absolute;
+    left: 10%;
+    top: 48%;
+}
+.explore{
+    width: 10%;
+    border: none;
+    border-radius: 37%;
+    font-size: 88%;
+    padding: 1%;
+    position: absolute;
+    left: 10%;
+    top: 63%;
+}
+.home{
+    width: 35%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    
+    color: white;
+    display: flex;
+   
+    
+}
+.region{
+    margin: 40px;
+}
+.circle{
+    position: absolute;
+    right: 30px;
+    right: 20%;
+    top: 25px;
+}
+
+.pic11{
+    
+    width: 50%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.first{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transition: transform;
+}
+.first:hover{
+    transform: translateY(-10px);
+}
+.a{
+    text-align: center;
+}
+.second{
+    width: 30%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 25%;
+    left: 70%;
+    transition: transform;
+}
+.second:hover{
+    transform: translateY(-10px);
+}
+.third{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 50%;
+    top: 70%;
+    width: 30%;
+    transition: transform;
+}
+.third:hover{
+    transform: translateY(-10px);
+}
+.fourth{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 70%;
+    width: 30%;
+    top: 70%;
+    transition: transform;
+}
+.fourth:hover{
+    transform: translateY(-10px);
+}
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+@media  screen and (min-width:320px) and (max-width:400px) {
+    
+
+body{
+    background: url(./sahara.jpg);
+    background-repeat: repeat-y;
+    
+    
+}
+.camel{
+    position: absolute;
+    
+    left: 5%;
+    top: 5%;
+    
+    
+}
+.sahalorem{
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    letter-spacing: 2px;
+    font-size: 69px;
+    color: white;
+}
+.lorem{
+    width: 116%;
+    position: absolute;
+    left: 8%;
+    top: 34%;
+}
+.explore{
+    width: 36%;
+    border: none;
+    border-radius: 37%;
+    font-size: 79%;
+    padding: 4%;
+    position: absolute;
+    left: 10%;
+    top: 57%;
+}
+.home{
+    width: 50%;
+    position: absolute;
+    left: 70%;
+    top: 0px;
+    color: white;
+    
+}
+.region{
+    margin: 40px;
+}
+.r{
+width: 10%;
+position: relative;
+left: 0%;
+top: 0%;
+}
+.y{
+width: 10%;
+position: absolute;
+left: 0%;
+top: 40%;
+}
+.t{
+width: 10%;
+position: absolute;
+left: 0%;
+top: 20%;
+}
+.circle{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    
+}
+
+.pic11{
+    
+    width: 50%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.total{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 63%;
+    left: 12%;
+}
+.first{
+    width: 100%;
+    position: absolute;
+    left: 21%;
+    top: 25%;
+    transition: transform;
+}
+.first:hover{
+    transform: translateY(-10px);
+}
+.a{
+    text-align: center;
+}
+.second{
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 100%;
+    left: 21%;
+    transition: transform;
+}
+.second:hover{
+    transform: translateY(-10px);
+}
+.third{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 21%;
+    top: 175%;
+    width: 100%;
+    transition: transform;
+}
+.third:hover{
+    transform: translateY(-10px);
+}
+.fourth{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 21%;
+    width: 100%;
+    top: 250%;
+    transition: transform;
+}
+.fourth:hover{
+    transform: translateY(-10px);
+}
+}
+@media screen and (width:768px) {
+
+    body{
+    background: url(./sahara.jpg);
+    background-repeat: repeat-y;
+    width: auto;
+}
+
+.camel{
+    position: absolute;
+    width: 100px;
+    left: 5%;
+    top: 6%;
+    
+    
+}
+.home{
+    width: 35%;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    
+    color: white;
+    display: block;
+   
+    
+}
+.region{
+    margin: 40px;
+}
+.r{
+width: 10%;
+position: relative;
+left: 0%;
+top: 0%;
+}
+.y{
+width: 10%;
+position: absolute;
+left: 0%;
+top: 60%;
+}
+.t{
+width: 10%;
+position: absolute;
+left: 0%;
+top: 30%;
+}
+.circle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+}
+.sahalorem{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    letter-spacing: 2px;
+    font-size: 100px;
+    color: white;
+}
+.lorem{
+    width: 56%;
+    position: absolute;
+    left: 10%;
+    top: 36%;
+}
+.explore{
+    width: 29%;
+    border: none;
+    border-radius: 37%;
+    font-size: 40px;
+    padding: 2%;
+    position: absolute;
+    left: 10%;
+    top: 49%;
+}
+.pic11{
+    
+    width: 60%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.first{
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    transition: transform;
+}
+.first:hover{
+    transform: translateY(-10px);
+}
+.a{
+    text-align: center;
+}
+.second{
+    width: 60%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 100%;
+    left: 20%;
+    transition: transform;
+}
+.second:hover{
+    transform: translateY(-10px);
+}
+.third{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 20%;
+    top: 135%;
+    width: 60%;
+    transition: transform;
+}
+.third:hover{
+    transform: translateY(-10px);
+}
+.fourth{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+    left: 20%;
+    width: 60%;
+    top: 170%;
+    transition: transform;
+}
+.fourth:hover{
+    transform: translateY(-10px);
+}
+
+}
